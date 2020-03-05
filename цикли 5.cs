@@ -1,0 +1,23 @@
+﻿using System;
+
+namespace цикли_5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x;
+            for (x = 1; x <= 10; x++)
+            {
+                Console.WriteLine( "  " );
+                for (int y = 1; y <= 10; y++)
+                {
+                    int l = x * y;
+                    Console.Write(l);
+                    Console.WriteLine();
+                }
+                
+            }
+        }
+    }
+}
