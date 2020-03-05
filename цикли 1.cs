@@ -14,7 +14,7 @@ namespace цикли_1
                 s += i;
 
             }
-            Console.Write(s);
+            Console.WriteLine(s);
         }
     }
 }
